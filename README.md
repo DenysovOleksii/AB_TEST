@@ -3,6 +3,7 @@
 An end-to-end analytical pipeline that automates A/B test interpretation for product management. The project bridges statistical computing in Python with interactive business intelligence in Tableau, transforming raw experimental data into automated, data-driven decisions.
 
 ## 📊 Dashboard Preview
+[Tableau Dashboard](https://public.tableau.com/views/AB_17786003379130/Significance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 *The dashboard acts as an automated business interpreter. Stakeholders select a `Test Number` to view an instant text and visual summary of experimental performance, translating statistical confidence into clear corporate actions.*
 
 ---
@@ -27,5 +28,3 @@ The core pipeline evaluates two-tailed hypothesis testing at a **95% confidence 
 * **Alternative Hypothesis ($H_1$):** $CR_{control} \neq CR_{test}$ (The product change caused a statistically significant shift).
 
 ---
-
-## 🧬 Pipeline Architecture & Data Flow
